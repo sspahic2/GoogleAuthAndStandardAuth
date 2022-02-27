@@ -1,0 +1,27 @@
+{
+  "name": "googleauthandstandardauth",
+  "version": "1.0.0",
+  "description": "A simple project that allows users to Register/LogIn using Google or the custom Authentication/Authorization process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspahic2/GoogleAuthAndStandardAuth.git"
+  },
+  "author": "Sabahudin Spahic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sspahic2/GoogleAuthAndStandardAuth/issues"
+  },
+  "homepage": "https://github.com/sspahic2/GoogleAuthAndStandardAuth#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "google-auth-library": "^7.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
